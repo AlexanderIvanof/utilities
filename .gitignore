@@ -1,0 +1,11 @@
+# IDE specific rules
+**/.idea
+**/*.iml
+
+**/.project
+**/.classpath
+**/.settings
+# Build tool specific rules
+**/.gradle
+**/build
+**/target
