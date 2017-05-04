@@ -6,6 +6,7 @@ import java.util.Map;
  * Basic class to create any builders for {@link java.util.Map} types.
  *
  * @author oleivano
+ * @since 1.0.0
  */
 abstract class AbstractMapBuilder<M extends Map<K,V>, K, V> {
 
@@ -21,6 +22,7 @@ abstract class AbstractMapBuilder<M extends Map<K,V>, K, V> {
      * @param key key to add
      * @param value value to add
      * @return according to pattern builder {@code this} instance
+     * @see Map#put(Object, Object)
      */
     public AbstractMapBuilder<M, K, V> put(K key, V value) {
         delegateMap.put(key, value);

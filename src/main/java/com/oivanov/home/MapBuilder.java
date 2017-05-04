@@ -9,6 +9,7 @@ import java.util.function.Supplier;
  * {@link AbstractMapBuilder} implementation for any map types
  *
  * @author oleivano
+ * @since 1.0.0
  */
 public class MapBuilder<K, V> extends AbstractMapBuilder<Map<K, V>, K, V> {
 
