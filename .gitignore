@@ -5,6 +5,7 @@
 **/.project
 **/.classpath
 **/.settings
+
 # Build tool specific rules
 **/.gradle
 **/build
